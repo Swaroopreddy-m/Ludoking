@@ -1,0 +1,195 @@
+{
+  "users": {
+    "guest_demo": {
+      "passwordHash": "$2b$10$demoHashForTestingPurposesOnly",
+      "coins": 5000,
+      "stats": {
+        "wins": 15,
+        "losses": 10,
+        "gamesPlayed": 25
+      },
+      "inventory": ["default_dice", "default_token", "default_board", "avatar_1"],
+      "equipped": {
+        "dice": "default_dice",
+        "token": "default_token",
+        "board": "default_board",
+        "avatar": "avatar_1",
+        "frame": "none"
+      },
+      "history": [
+        {
+          "gameId": "room-123456",
+          "mode": "4-Player Quick Match",
+          "date": "2026-08-15T12:00:00Z",
+          "players": ["guest_demo", "bot_green", "bot_yellow", "bot_blue"],
+          "rank": 1,
+          "coinsEarned": 1000
+        }
+      ]
+    }
+  },
+  "storeItems": [
+    {
+      "id": "default_dice",
+      "category": "dice",
+      "name": "Classic White",
+      "description": "The standard bone-white Ludo dice.",
+      "price": 0,
+      "previewColor": "#ffffff",
+      "image": "🎲"
+    },
+    {
+      "id": "golden_dice",
+      "category": "dice",
+      "name": "Golden Roll",
+      "description": "A shiny golden dice that radiates luck.",
+      "price": 1000,
+      "previewColor": "#FFD700",
+      "image": "🏆"
+    },
+    {
+      "id": "fire_dice",
+      "category": "dice",
+      "name": "Inferno Dice",
+      "description": "A burning hot dice with fire particles.",
+      "price": 2500,
+      "previewColor": "#FF4500",
+      "image": "🔥"
+    },
+    {
+      "id": "default_token",
+      "category": "token",
+      "name": "Classic Token",
+      "description": "Standard round Ludo counters.",
+      "price": 0,
+      "previewColor": "#e74c3c",
+      "image": "🔴"
+    },
+    {
+      "id": "crown_token",
+      "category": "token",
+      "name": "Royal Crown",
+      "description": "Tokens shaped like miniature royal crowns.",
+      "price": 1500,
+      "previewColor": "#f1c40f",
+      "image": "👑"
+    },
+    {
+      "id": "star_token",
+      "category": "token",
+      "name": "Cosmic Star",
+      "description": "Glowing stars from deep space.",
+      "price": 2000,
+      "previewColor": "#9b59b6",
+      "image": "⭐"
+    },
+    {
+      "id": "default_board",
+      "category": "board",
+      "name": "Classic Wood",
+      "description": "Traditional board theme with standard primary colors.",
+      "price": 0,
+      "previewColor": "#f39c12",
+      "image": "🪵"
+    },
+    {
+      "id": "neon_board",
+      "category": "board",
+      "name": "Neon Cyber",
+      "description": "Cyberpunk layout with glowing grid lines.",
+      "price": 3000,
+      "previewColor": "#00ffff",
+      "image": "🌐"
+    },
+    {
+      "id": "candy_board",
+      "category": "board",
+      "name": "Candy Land",
+      "description": "Sweet, pastel colors and candy theme.",
+      "price": 1200,
+      "previewColor": "#ff9ff3",
+      "image": "🍭"
+    },
+    {
+      "id": "avatar_1",
+      "category": "avatar",
+      "name": "Ludo Champ",
+      "description": "A seasoned Ludo player avatar.",
+      "price": 0,
+      "previewColor": "#3498db",
+      "image": "👤"
+    },
+    {
+      "id": "avatar_2",
+      "category": "avatar",
+      "name": "Dice Master",
+      "description": "Special wizard avatar wearing a dice hat.",
+      "price": 800,
+      "previewColor": "#e67e22",
+      "image": "🧙‍♂️"
+    },
+    {
+      "id": "avatar_3",
+      "category": "avatar",
+      "name": "Cyber Warrior",
+      "description": "Futuristic cyborg ready for Ludo combat.",
+      "price": 1500,
+      "previewColor": "#2ecc71",
+      "image": "🤖"
+    },
+    {
+      "id": "frame_gold",
+      "category": "frame",
+      "name": "Golden Border",
+      "description": "A gold-plated frame for your avatar profile.",
+      "price": 1200,
+      "previewColor": "#f1c40f",
+      "image": "🖼️"
+    },
+    {
+      "id": "frame_neon",
+      "category": "frame",
+      "name": "Laser Cyan",
+      "description": "Electric cyan neon border for your avatar.",
+      "price": 1800,
+      "previewColor": "#00f5ff",
+      "image": "⚡"
+    }
+  ],
+  "events": [
+    {
+      "id": "daily_rush",
+      "title": "Daily Coins Rush",
+      "description": "Play 3 matches today to claim a bonus chest containing up to 1000 coins!",
+      "endTime": "2026-08-16T23:59:59Z",
+      "reward": "1000 Coins",
+      "image": "💰",
+      "type": "Daily"
+    },
+    {
+      "id": "weekly_showdown",
+      "title": "Ludo Masters Championship",
+      "description": "Compete in the weekly leaderboard. The top 3 players win exclusive Golden Dice skins!",
+      "endTime": "2026-08-20T12:00:00Z",
+      "reward": "Golden Dice Skin + 5000 Coins",
+      "image": "🏆",
+      "type": "Weekly Tournament"
+    },
+    {
+      "id": "star_challenge",
+      "title": "Cosmic Star Event",
+      "description": "Win 2 games using Yellow tokens. Unlock the Cosmic Star token skin for free!",
+      "endTime": "2026-08-23T18:00:00Z",
+      "reward": "Cosmic Star Skin",
+      "image": "⭐",
+      "type": "Special Challenge"
+    }
+  ],
+  "leaderboard": [
+    { "username": "guest_demo", "wins": 15, "gamesPlayed": 25 },
+    { "username": "LudoKing_99", "wins": 42, "gamesPlayed": 70 },
+    { "username": "StarRoller", "wins": 31, "gamesPlayed": 55 },
+    { "username": "LuckySix", "wins": 28, "gamesPlayed": 60 },
+    { "username": "BoardMaster", "wins": 22, "gamesPlayed": 40 }
+  ]
+}
